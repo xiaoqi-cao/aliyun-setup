@@ -2,7 +2,23 @@
 
 当我们创建了一个阿里云的ECS实例时，我们需要设置一下当前实例。其中包括：
 
-* Docker 环境
+  * Update system
+  * Docker 环境
+
+
+## Update System
+
+1. Update system on Ubuntu system
+
+```
+$ apt-get update
+```
+
+2. Update system on Centos system
+
+```
+$ yum update
+```
 
 
 ## Setup Docker
@@ -22,3 +38,5 @@ Docker是现在最流行的部署方式。
 DaoCLoud 拥有很好的加速功能，可以让我们很快的拉取Docker Image。
 
 * [Official Site](https://www.daocloud.io/)
+
+## Setup finished
