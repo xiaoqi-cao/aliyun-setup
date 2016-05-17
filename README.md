@@ -1,42 +1,23 @@
-# aliyun-setup
+# Aliyun Setup
 
-当我们创建了一个阿里云的ECS实例时，我们需要设置一下当前实例。其中包括：
+# Setup User
 
-  * Update system
-  * Docker 环境
+Reference the [SUPPORT](./SUPPORT.md) to setup user.
 
+# Setup Instance
 
-## Update System
-
-1. Update system on Ubuntu system
-
-```
-$ apt-get update
-```
-
-2. Update system on Centos system
+## Update packages
 
 ```
 $ yum update
 ```
 
+## Setup docker
 
-## Setup Docker
+Docker is a popular technical skills. Install or update docker in system.
+Reference here: [Setup Docker](https://docs.docker.com/engine/installation/linux/centos/)
 
-Docker是现在最流行的部署方式。
+## Setup DaoCloud
 
-### Setup Docker server
-
-* Install or update docker on Ubuntu System
-[Click here](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
-
-* Install or update docker on Centos System
-[Click here](https://docs.docker.com/engine/installation/linux/centos/)
-
-### Setup DaoCloud
-
-DaoCLoud 拥有很好的加速功能，可以让我们很快的拉取Docker Image。
-
-* [Official Site](https://www.daocloud.io/)
-
-## Setup finished
+DaoCLoud provide a accelerator, using it to pull docker images is very quickly.
+Reference here: [Dao Cloud](https://www.daocloud.io/)
