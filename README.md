@@ -21,3 +21,6 @@ Reference here: [Setup Docker](https://docs.docker.com/engine/installation/linux
 
 DaoCLoud provide a accelerator, using it to pull docker images is very quickly.
 Reference here: [Dao Cloud](https://www.daocloud.io/)
+
+# License
+Code is under the [MIT license](./LICENSE).
